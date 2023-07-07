@@ -53,8 +53,10 @@ function mostraRaquete(x,y) {
   rect(x, y, comprimentoRaq, alturaRaq);
 }
 function movimentaMinhaRaq (){
-  
+  if(yRaquete>0||yRaquete<300){
     yRaquete = mouseY;
+  }
+   
  
   
 };
