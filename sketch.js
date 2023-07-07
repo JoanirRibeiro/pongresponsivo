@@ -20,7 +20,7 @@ let meusPontos=0;
 let pontosOponente=0;
 
 function setup() {
-  createCanvas(500, 300);
+  createCanvas(600, 300);
 }
 
 function draw() {
