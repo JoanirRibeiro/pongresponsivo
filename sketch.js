@@ -10,7 +10,7 @@ let velocidadey = 6;
 let xRaquete = 5;
 let yRaquete = 125;
 let comprimentoRaq = 10;
-let alturaRaq = 100;
+let alturaRaq = 70;
 let colide = false;
 //variáveis Raquete Oponente
 let xRaqueteOp = 585;
@@ -70,7 +70,7 @@ function controiraqueteoponente(){
   rect(xRaqueteOp,yRaqueteOp,ComprimentoRaqOp,alturaRaqOp)
 }
 function movimentoRaqueteOponente(){
-  velocidadeOponentey = yBolinha -yRaqueteOp -alturaRaq/2 +40
+  velocidadeOponentey = yBolinha -yRaqueteOp -alturaRaq/2 +50
   yRaqueteOp = yRaqueteOp + velocidadeOponentey
 }
 function placar(){
