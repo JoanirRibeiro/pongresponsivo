@@ -85,5 +85,10 @@ function placar(){
 }
 function marcarPontos(){
   if (xBolinha>= 585){meusPontos = meusPontos+1}
-  if (xBolinha<=15){pontosOponente=pontosOponente+1}
+  if (xBolinha<=15){
+    pontosOponente=pontosOponente+1;
+    xbolinha = 570;
+    ybolinha = 200;
+  }
+  
 }
