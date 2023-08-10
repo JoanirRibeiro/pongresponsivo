@@ -9,6 +9,10 @@ header{
   display: none;
 }
 
+.imagem-cabeçalho {
+  text-align: center;
+}
+
 .container{
   display: flex;
   justify-content: center;
